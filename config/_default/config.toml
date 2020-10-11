@@ -1,4 +1,4 @@
-baseURL = "https://igimia.github.io/en/"
+baseURL = "https://igimia.github.io/"
 title = "Hugo Zzo Theme"
 theme = "zzo"
 

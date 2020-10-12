@@ -2,7 +2,7 @@ baseURL = "https://igimia.github.io/blog/"
 title = "Hugo Zzo Theme"
 theme = "zzo"
 
-defaultContentLanguage = "en"
+defaultContentLanguage = "jp"
 defaultContentLanguageInSubdir = true
 hasCJKLanguage = true
 

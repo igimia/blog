@@ -1,4 +1,4 @@
-logoText = "Zzo"
+logoText = "BAMBi's Blog"
 logoType = "short" # long, short
 description = "The Zzo theme for Hugo example site."
 custom_css = []
@@ -42,14 +42,13 @@ talksGroupByDate = "2006"
 pubPaginate = 20
 
 # whoami
-myname = "zzossig"
-email = "zzossig@gmail.com"
-whoami = "Web Developer"
+myname = "BAMBi"
+whoami = "サーバサイド~インフラがメインでフロントも好きです。趣味はアニメ鑑賞、ゲーム、つまみ細工です。\n AWS, Kubernetes, MySQL, DynamoDB\n Go, Python, Javascript \n 等"
 bioImageUrl = ""
 useGravatar = false
-location = "Seoul, Korea"
-organization = "Hugo"
-link = "https://zzossig.io/ko"
+location = "東京"
+#organization = "Hugo"
+#link = "https://zzossig.io/ko"
 
 # sidebar
 enableBio = true
@@ -74,7 +73,7 @@ enableSidebarPostsByOrder = false
 showPoweredBy = true
 showFeedLinks = true
 showSocialLinks = true
-enableLangChange = true
+enableLangChange = false
 enableThemeChange = true
 
 # service
@@ -143,11 +142,11 @@ commento = false
   dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions]
-  email = "mailto:your@email.com"
+  #email = "mailto:your@email.com"
   phone = ""
-  facebook = "http://example.org/"
-  twitter = "http://example.org/"
-  github = "https://github.com/zzossig/hugo-theme-zzo"
+  #facebook = "http://example.org/"
+  twitter = "https://twitter.com/igmayk"
+  github = "https://github.com/igimia"
   stack-overflow = ""
   instagram = ""
   google-plus = ""

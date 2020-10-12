@@ -1,6 +1,6 @@
 logoText = "BAMBi's Blog"
 logoType = "short" # long, short
-description = "The Zzo theme for Hugo example site."
+description = "BAMBi's 技術ブログ"
 custom_css = []
 custom_js = []
 useFaviconGenerator = true # https://www.favicon-generator.org/
@@ -43,7 +43,7 @@ pubPaginate = 20
 
 # whoami
 myname = "BAMBi"
-whoami = "サーバサイド~インフラがメインでフロントも好きです。趣味はアニメ鑑賞、ゲーム、つまみ細工です。\n AWS, Kubernetes, MySQL, DynamoDB\n Go, Python, Javascript \n 等"
+whoami = "サーバサイド~インフラがメインでフロントも好きです。趣味はアニメ鑑賞、ゲーム、つまみ細工です。"
 bioImageUrl = ""
 useGravatar = false
 location = "東京"
@@ -124,7 +124,7 @@ commento = false
   appKey = '你的appKey'
   notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
   verify = false # Verification code
-  avatar = 'mm' 
+  avatar = 'mm'
   placeholder = '说点什么吧...'
   visitor = false
 
@@ -175,7 +175,7 @@ commento = false
 
 [donationOptions]
   enable = false
-  alipay = "" 
+  alipay = ""
   wechat = ""
   paypal = ""
   patreon = ""

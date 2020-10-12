@@ -5,9 +5,9 @@
   languagedir = "ltr"
   contentdir = "content/en"
 
-[jp]
-  title = "Hugo Zzo Theme"
+[ja]
+  title = "BAMBi's Blog"
   languageName = "日本語"
   weight = 2
   languagedir = "ltr"
-  contentdir = "content/jp"
+  contentdir = "content/ja"

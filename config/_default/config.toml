@@ -1,8 +1,8 @@
 baseURL = "https://igimia.github.io/blog/"
-title = "Hugo Zzo Theme"
+title = "BAMBi's Blog"
 theme = "zzo"
 
-defaultContentLanguage = "jp"
+defaultContentLanguage = "ja"
 defaultContentLanguageInSubdir = true
 hasCJKLanguage = true
 

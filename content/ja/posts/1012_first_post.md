@@ -155,14 +155,14 @@ Zzoの公式に全て書いてあるが...今回私がカスタマイズした�
   $ cp content/en content/ja
   ```
   何も表示されない。まだ何か足りないらしい。
-  {{< figure src="/blog/images/feature2020/1012_2.jpg" >}}
+  ![image_2](/images/posts/20201012/1012_2.jpg)
   config配下に`menus.en.toml`があった。
   細かいチューニングは置いといて、一旦Copy、Renameしてそのままjaファイルとする。
   ```bash
   $ cp -a config/_default/menus.en.toml config/_default/menus.ja.toml
   ```
 
-  {{< figure src="/blog/images/feature2020/1012_1.jpg" >}}
+  ![image_1](/images/posts/20201012/1012_1.jpg)
   コンテンツ表示された。心なしかあひるも少し嬉しそう。
 
 * 表示言語切り替え機能の無効化

@@ -1,7 +1,7 @@
 logoText = "BAMBi's Blog"
 logoType = "short" # long, short
 description = "BAMBi's 技術ブログ"
-custom_css = []
+custom_css = ["scss/custom.scss"]
 custom_js = []
 useFaviconGenerator = true # https://www.favicon-generator.org/
 meta_image = ""
@@ -18,6 +18,10 @@ enableUiAnimation = true
 hideSingleContentsWhenJSDisabled = false
 enablePinnedPosts = true
 minItemsToShowInTagCloud = 1 # Minimum items to show in tag cloud
+
+# appbar
+enableAppbarSearchIcon = false
+enableAppbarLangIcon = false
 
 # header
 homeHeaderType = "text" # text, img, slide, typewriter

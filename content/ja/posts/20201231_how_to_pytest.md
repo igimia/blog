@@ -10,14 +10,12 @@ tags:
 
 ## 背景
 
-最近仕事でPytestを使ったUnitTestをかく機会があったので使い方を忘れないようにメモ。
-参考にもあるが、[こちらのサイト](https://www.magata.net/memo/index.php?pytest%C6%FE%CC%E7)がすごくわかりやすかった。
+最近仕事でPytestを使ったUnitTestをかく機会があったので使い方を忘れないようにメモ。参考にもあるが、[こちらのサイト](https://www.magata.net/memo/index.php?pytest%C6%FE%CC%E7)がすごくわかりやすかった。
 感謝。。。！
 
 ## pytestとは
 
-Python製のテストフレームワークの一つ。似たようなものにunittestがある。
-unittestは標準で使えるライブラリだが、pytestはライブラリのインストールが必要となる。
+Python製のテストフレームワークの一つ。似たようなものにunittestがある。unittestは標準で使えるライブラリだが、pytestはライブラリのインストールが必要となる。
 カバレッジを算出したり、結果をhtmlファイルに出力することができて便利。
 
 ## 基本的な使い方

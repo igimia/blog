@@ -2,6 +2,10 @@
 title: "pytestを使ってみる①【準備・実行編】(python3.9.0)"
 date: 2020-12-31T18:10:30+09:00
 draft: false
+hideToc: false
+enableToc: true
+enableTocContent: true
+tocPosition: inner
 tags:
 - Python3.9.0
 - test

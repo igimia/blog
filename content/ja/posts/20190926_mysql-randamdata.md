@@ -1,7 +1,7 @@
 ---
 title: "MySQLでランダムデータを生成したい"
 date: 2010-09-26T20:40:51+09:00
-description: tool
+description: 
 draft: false
 hideToc: false
 enableToc: true

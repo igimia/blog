@@ -1,11 +1,7 @@
 ---
-title: "pytestを使ってみる②【実行前、実行後処理編】"
+title: "ブログにコメント機能を追加する"
 date: 2021-01-01T19:10:30+09:00
-draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-tocPosition: inner
+draft: true
 tags:
 - Python
 - test

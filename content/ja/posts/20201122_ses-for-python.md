@@ -2,6 +2,10 @@
 title: "【AWS, SES】python(boto3)を利用してメールを送信する"
 date: 2020-11-22T21:00:30+09:00
 draft: false
+hideToc: false
+enableToc: true
+enableTocContent: true
+tocPosition: inner
 tags:
 - aws
 - ses

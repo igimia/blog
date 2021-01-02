@@ -1,9 +1,9 @@
 ---
-title: "pytestを使ってみるイチ①【準備・実行編】"
+title: "pytestを使ってみる①【準備・実行編】(python3.9.0)"
 date: 2020-12-31T18:10:30+09:00
-draft: true
+draft: false
 tags:
-- Python
+- Python3.9.0
 - test
 - pytest
 ---
@@ -12,6 +12,8 @@ tags:
 
 最近仕事でPytestを使ったUnitTestをかく機会があったので使い方を忘れないようにメモ。参考にもあるが、[こちらのサイト](https://www.magata.net/memo/index.php?pytest%C6%FE%CC%E7)がすごくわかりやすかった。
 感謝。。。！
+
+ちなみに実行環境はmacで利用しているpythonのバージョンは`python3.9.0`です。
 
 ## pytestとは
 
@@ -212,9 +214,70 @@ TOTAL                 11      1    91%
 ========================================================================================= 2 passed in 0.09s =========================================================================================
 ```
 
+#### テストで失敗した時にメッセージを出力したい
 
+assert後にカンマ(`,`)をつけ、その後メッセージを書く。
 
-## 参考
+```python
+def test_main_failure_1():
+    # 試験データ
+    a = 1
+    b = 5
+
+    # テストに失敗した時メッセージが表示される
+    assert a == b, "a not equal b"
+```
+
+```python
+pytest tests/test_main_failure.py
+======================================================================================== test session starts ========================================================================================
+platform darwin -- Python 3.9.0, pytest-6.2.1, py-1.10.0, pluggy-0.13.1
+rootdir: /Users/hogehoge/
+plugins: html-3.1.1, metadata-1.11.0, cov-2.10.1
+collected 1 item
+
+tests/test_main_failure.py F    [100%]
+
+============================================================================================= FAILURES ==============================================================================================
+________________________________________________________________________________________ test_main_failure_1 ________________________________________________________________________________________
+
+    def test_main_failure_1():
+        # 試験データ
+        a = 1
+        b = 5
+
+        # 想定値
+>       assert a == b, "a not equal b"
+E       AssertionError: a not equal b
+E       assert 1 == 5
+
+tests/test_main_failure.py:7: AssertionError
+====================================================================================== short test summary info ======================================================================================
+FAILED tests/test_main_failure.py::test_main_failure_1 - AssertionError: a not equal b
+========================================================================================= 1 failed in 0.05s =========================================================================================
+```
+
+#### どんなデータが入っていてもassertの結果をTrueにしたい時
+
+pytestではなく、標準ライブラリとして用意されている`unittest`の`ANY`を利用することで可能。    
+滅多に使うケースはないが、知っているとすごく便利。例えばmockにした関数に渡された引数のassertをしたいがその一部が実行時点のタイムスタンプやランダム値など予測不能な値である場合に対象項目の予測値に`ANY`を利用する。  
+
+どんなデータでも通ってしまうので利用する時は注意が必要。。
+
+```python
+from unittest.mock import ANY
+
+def test_main_any_1():
+    # 試験データ
+    a = None
+
+    # こんなassertも問題なく通る
+    assert a == ANY
+```
+
+## 参考  
+大変参考にさせていただきました。ありがとうございます。
+
 * [PyPi(pytest)](https://pypi.org/project/pytest/)
 * [pytest入門 - 闘うITエンジニアの覚え書き](https://www.magata.net/memo/index.php?pytest%C6%FE%CC%E7)
 * [知っておくと便利！Pytestコマンドライン小ネタ集](https://dev.classmethod.jp/articles/pytest-tips-cmd-options/)

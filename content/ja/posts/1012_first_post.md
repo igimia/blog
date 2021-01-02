@@ -1,7 +1,7 @@
 ---
 title: "Hugo + GithubPages でブログを構築する"
 date: 2020-10-12T20:40:51+09:00
-description: hugo, github
+description: 
 draft: false
 hideToc: false
 enableToc: true
@@ -14,7 +14,6 @@ series:
 -
 categories:
 - Blog制作
-image: images/feature2020/1012_1.jpg
 ---
 
 

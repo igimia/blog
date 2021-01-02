@@ -2,6 +2,10 @@
 title: "zsh, preztoのセットアップ【Mac】"
 date: 2020-12-14T11:10:30+09:00
 draft: false
+hideToc: false
+enableToc: true
+enableTocContent: true
+tocPosition: inner
 tags:
 - zsh
 - mac

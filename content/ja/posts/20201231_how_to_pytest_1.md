@@ -7,7 +7,7 @@ enableToc: true
 enableTocContent: true
 tocPosition: inner
 tags:
-- Python3.9.0
+- Python
 - test
 - pytest
 ---

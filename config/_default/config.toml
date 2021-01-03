@@ -15,6 +15,7 @@ enableEmoji = true
 paginate = 13
 rssLimit = 100
 
+disqusShortname = "www-anypalette-com"
 enableGitInfo = false
 googleAnalytics = ""
 

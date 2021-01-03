@@ -30,9 +30,40 @@ categories:
 モデレーションのタイプを選択する。   
 後から変更可能とのことなので一旦strictを設定。
 
+3. ブログ（HUGO）の設定追加
+zzoテーマの`layouts/_default/single.html`をみてみると、コメントのテンプレートを利用しているところがあった。
+    ```html:single.html
+    </article>
 
+    {{ partial "script/clipboard-script" . }}
+    {{ partial "script/codeblock-script" . }}
+    {{ partial "body/share" . }}
+    {{ partial "body/donation" . }}
+    {{ partial "body/whoami" . }}
+    {{ partial "body/related" . }}
+    {{ partial "pagination/pagination-single" . }}
+    {{ partial "comments/comments.html" . }}
+    {{ partial "body/photoswipe" . }}
 
-
+    <div class="hide">
+    ```
+    `partials/comments/comments.html`をみてみるとparamsの`enableComment`と`disqus_shortname`
+    に設定が入っていれば有効化されそう。
+    ```html:comments.html
+    {{ if $.Param "enableComment" }}
+      {{ if $.Param "disqus_shortname" }}
+        {{ partial "comments/disqus.html" . }}
+      {{ end }}
+    {{ end }}
+    ```
+    `config/_default/params.toml`の設定を修正する。
+    disqus_shortnameはdiaqusの`General -> Shortname`から確認する。
+    ```toml:params.toml
+    enableComment = true
+    disqus_shortname = "your_disqus_shortname"
+    ```
+    出てきた。
+    
 ## 参考
 
 参考にさせていただきました。ありがとうございました。

@@ -95,7 +95,7 @@ fullContents = false
 
 # comment
 enableComment = true
-disqus_shortname = ""
+disqus_shortname = "www-anypalette-com"
 commento = false
 
 [telegram]

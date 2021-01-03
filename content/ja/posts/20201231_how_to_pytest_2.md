@@ -259,8 +259,6 @@ test_package_2
 
 ```
 
-
-
 ## 感想
 
 testsフォルダ直下には一つ前の記事のpytest用スクリプトがあったのでscope動作確認時のフォルダ構成が気持ち悪い感じになった。記事ごとにフォルダ分ければよかった。  
@@ -270,12 +268,3 @@ testsフォルダ直下には一つ前の記事のpytest用スクリプトがあ
 ## 参考
 * [How do I correctly setup and teardown for my pytest class with tests?](https://stackoverflow.com/questions/26405380/how-do-i-correctly-setup-and-teardown-for-my-pytest-class-with-tests)
 * [docs.pytest.org](https://docs.pytest.org/en/stable/fixture.html)
-
-
-
-
-
-
-
-
-

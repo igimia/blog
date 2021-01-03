@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:grid x="0" y="0" width="20.043" height="20.043"/>
+    <bx:grid x="0" y="0" width="60.291" height="60.291"/>
+    <pattern id="pattern-0" x="0" y="0" width="25" height="25" patternUnits="userSpaceOnUse" viewBox="0 0 100 100">
+      <rect width="50" height="100" style="" y="0" x="0"/>
+      <text style="font-size: 36; font-family: Roboto; white-space: pre;" transform="matrix(1, 0, 0, 1, 89.887638, 56.991259)"/>
+    </pattern>
+    <pattern id="pattern-1" viewBox="0 0 100 100" patternUnits="userSpaceOnUse" preserveAspectRatio="none" width="100" height="100">
+      <title>logo</title>
+    </pattern>
+    <symbol id="symbol-0" viewBox="0 0 100 100"/>
+    <linearGradient id="gradient-1" gradientUnits="userSpaceOnUse" x1="344.355" y1="137.565" x2="344.355" y2="263.749" gradientTransform="matrix(-0.667337, -0.671768, -0.507976, 0.614497, 460.07782, 351.346756)" spreadMethod="reflect">
+      <stop offset="0" style="stop-color: rgba(74, 216, 138, 1)"/>
+      <stop offset="1" style="stop-color: rgb(17, 155, 146);"/>
+    </linearGradient>
+    <linearGradient id="gradient-2" gradientUnits="userSpaceOnUse" x1="344.355" y1="137.565" x2="344.355" y2="263.749" gradientTransform="matrix(-0.667337, 0.671768, -0.507976, -0.614497, 600.378784, 147.213226)" spreadMethod="reflect">
+      <stop offset="0" style="stop-color: rgba(74, 216, 138, 1)"/>
+      <stop offset="1" style="stop-color: rgb(17, 155, 146);"/>
+    </linearGradient>
+    <linearGradient id="gradient-0" gradientUnits="userSpaceOnUse" x1="239.327" y1="167.247" x2="239.327" y2="282.613">
+      <stop offset="0" style="stop-color: rgba(238, 163, 204, 1)"/>
+      <stop offset="1" style="stop-color: rgba(222, 77, 157, 1)"/>
+    </linearGradient>
+    <linearGradient id="gradient-3" gradientUnits="userSpaceOnUse" x1="215.448" y1="281.599" x2="215.448" y2="319.194">
+      <stop offset="0" style="stop-color: rgba(238, 163, 204, 1)"/>
+      <stop offset="1" style="stop-color: rgba(222, 77, 157, 1)"/>
+    </linearGradient>
+  </defs>
+  <path d="M 28.822 52.552 H 28.822 V 52.552 H 28.822 V 52.552 H 28.822 V 52.552 H 28.822 V 52.552 H 28.822 V 52.552 H 28.822 Z" style="fill: rgb(216, 216, 216);" transform="matrix(1, 0, 0, 1, 231.044173, 200.960261)" bx:shape="cross 28.822 52.552 0 0 0 0 0.5 1@a27ad28a"/>
+  <path d="M 228.497 298.558 C 229.281 316.341 219.001 319.194 206.458 319.194 C 193.914 319.194 206.535 318.807 205.751 301.026 C 204.966 283.245 210.143 281.605 222.684 281.605 C 235.229 281.605 227.713 280.777 228.497 298.558 Z" style="fill: url(#gradient-3);" transform="matrix(0.980569, 0.196173, -0.196173, 0.980569, 63.115998, -36.428212)"/>
+  <path d="M 253.458 225.687 C 250.058 257.07 258.448 282.613 236.613 282.613 C 214.78 282.613 229.546 242.982 230.887 226.196 C 232.231 209.408 234.069 185.007 236.576 170.43 C 239.082 155.854 256.859 194.302 253.458 225.687 Z" style="fill: url(#gradient-0);" transform="matrix(0.978164, 0.207837, -0.207837, 0.978164, 51.974821, -44.829272)"/>
+  <text x="283.716" y="218.251" style="white-space: pre; fill: rgb(51, 51, 51); font-size: 24px;"> </text>
+  <path d="M 154.77 249.837 L 120.258 338.216 L 188.762 261.778 L 200.43 248.758 L 189.75 236.964 L 120.363 160.344 L 154.77 249.837 Z" style="stroke-width: 0px; fill: url(#gradient-1);" transform="matrix(-1, 0, 0, -1, 320.687996, 498.559998)"/>
+  <path d="M 295.071 248.723 L 260.559 160.344 L 329.063 236.782 L 340.731 249.802 L 330.051 261.596 L 260.664 338.216 L 295.071 248.723 Z" style="stroke-width: 0px; fill: url(#gradient-2);"/>
+  <text x="424.017" y="77.95" style="white-space: pre; fill: rgb(51, 51, 51); font-size: 24px;"> </text>
+</svg>

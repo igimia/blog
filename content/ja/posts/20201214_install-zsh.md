@@ -115,7 +115,3 @@ VSCodeから設定（`setting.json`）を開く。
 ### 参考
 参考にさせていただきました。ありがとうございます。  
 * https://qiita.com/s_s_satoc/items/e3c1b9b3545fd572dd1c
-
-
-
-

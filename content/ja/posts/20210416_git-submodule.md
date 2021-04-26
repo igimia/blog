@@ -1,10 +1,11 @@
 ---
 title: "git submoduleについてと主な使い方"
 date: 2021-04-15T23:10:30+09:00
-draft: true
+draft: false
 tags:
 - git
 ---
+
 
 ## 内容
 

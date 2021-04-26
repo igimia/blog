@@ -1,10 +1,11 @@
 ---
 title: "git submoduleについてと主な使い方"
-date: 2021-03-15T23:10:30+09:00
+date: 2021-04-15T23:10:30+09:00
 draft: false
 tags:
 - git
 ---
+
 
 ## 内容
 
@@ -116,6 +117,7 @@ submoduleとして追加したリポジトリのgitに関する設定が入っ�
 
 追加したリポジトリがごっそりそのまま追加される。
 
+
 ### submoduleの状態確認
 
 submoduleとして参照しているリポジトリについて、どのコミットハッシュを参照しているのか確認することができる。
@@ -125,7 +127,6 @@ submoduleとして参照しているリポジトリについて、どのコミ�
 $ git submodule status
 # 7xxxx1966a4b3bba7391322a3a151xxxxxxxxxx submodule_repo (heads/main)
 ```
-
 ### submoduleの更新
 
 git submodule コマンドを使った方法とsubmoduleプロジェクト配下で更新する方法がある。
@@ -150,11 +151,13 @@ $ git submodule foreach git pull origin master
 ```bash
 # submoduleとして登録したリポジトリ(フォルダ) 配下で更新する場合
 $ cd submodule_repo
-$ git pull origin master
+$ git fetch
+$ git merge master
 
 # .git/modules/対象のsubmodule 配下で更新する場合
 $ cd .git/modules/submodule_repo
-$ git pull origin master
+$ git fetch
+$ git merge master
 ```
 
 .git/modules/対象のsubmodule 配下で実行する方法は少し奇妙に感じるが、サブモジュールを追加するとそのリポジトリのgit管理は`.git/modules/追加したsubmodule` で行われる(submoduleフォルダ配下の.gitファイル参照)ため、サブモジュールとして登録したリポジトリ(フォルダ)配下で更新

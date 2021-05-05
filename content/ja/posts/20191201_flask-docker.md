@@ -24,7 +24,7 @@ flaskで簡単なWebアプリを作りたい！
 環境構築はDocker（docker-compose）でやりたいなぁ。
 
 やりながら忘れないようにメモメモ。
-ソースは[こちら](https://github.com/igimia/flask-sample-app)
+ソースは[こちら](https://github.com/bambi-san/flask-sample-app)
 
 # 目標
 docker-composeを利用してflask + mysqlの環境を構築する
@@ -329,4 +329,4 @@ alpineだとmysqlclientをインストールするためのパッケージが足
 コンテナから起動するときは`--host`オプションつけて、`コンテナに割り当てられたIPアドレス`か`0.0.0.0`で起動するように。
 
 ## ソース
-ソースは[こちら](https://github.com/igimia/flask-sample-app)。
+ソースは[こちら](https://github.com/bambi-san/flask-sample-app)。
